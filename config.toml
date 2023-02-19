@@ -455,10 +455,10 @@ enableEmoji = true
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
         enable = true
-        repo = "anntsai2356/blog_test"
-        repoId = "R_kgDOI86bpQ"
+        repo = "anntsai2356/anntsai2356.github.io"
+        repoId = "602152777"
         category = "Announcements"
-        categoryId = "DIC_kwDOI86bpc4CUKOT"
+        categoryId = "DIC_kwDOI-QfSc4CUUBh"
         # automatically adapt the current theme i18n configuration when empty
         lang = "zh-TW"
         mapping = "pathname"
