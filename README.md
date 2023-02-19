@@ -1,0 +1,1 @@
+![build](https://github.com/anntsai2356/blog_base/actions/workflows/blog_builder.yml/badge.svg)
