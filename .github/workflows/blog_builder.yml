@@ -1,0 +1,39 @@
+name: Blog builder
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: false # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.110.0'
+          extended: true
+          
+      - name: Clean public
+        run: rm -rf public/*      
+
+      - name: Build
+        run: hugo --minify
+        
+      - name: Pushes to public repository
+        uses: cpina/github-action-push-to-another-repository@ssh-deploy-key
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: public
+          destination-github-username: 'anntsai2356'
+          destination-repository-name: 'anntsai2356.github.io'
+          user-email: hikarunost@gmail.com
+          commit-message: pushed from $GITHUB_REF
+          target-branch: main   
