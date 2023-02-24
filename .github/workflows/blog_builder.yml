@@ -29,7 +29,7 @@ jobs:
       - name: Copy algolia_uploader to public
         run: |
           mkdir -p public/.github/workflows
-          cp .github/workflows/algolia_uploader.yml public/.github/workflows/algolia_uploader.yml
+          cp workflows/algolia_uploader.yml public/.github/workflows/algolia_uploader.yml
 
       - name: Pushes to public repository
         uses: cpina/github-action-push-to-another-repository@ssh-deploy-key
