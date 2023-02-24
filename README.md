@@ -1,1 +1,2 @@
 ![build](https://github.com/anntsai2356/blog_base/actions/workflows/blog_builder.yml/badge.svg)
+![search](https://github.com/anntsai2356/anntsai2356.github.io/actions/workflows/algolia_uploader.yml/badge.svg)
