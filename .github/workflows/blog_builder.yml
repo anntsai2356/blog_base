@@ -25,7 +25,12 @@ jobs:
 
       - name: Build
         run: hugo --minify
-        
+
+      - name: Copy algolia_uploader to public
+        run: |
+          mkdir -p public/.github/workflows
+          cp .github/workflows/algolia_uploader.yml public/.github/workflows/algolia_uploader.yml
+
       - name: Pushes to public repository
         uses: cpina/github-action-push-to-another-repository@ssh-deploy-key
         env:
@@ -36,4 +41,4 @@ jobs:
           destination-repository-name: 'anntsai2356.github.io'
           user-email: hikarunost@gmail.com
           commit-message: pushed from blog_base
-          target-branch: main   
+          target-branch: main
