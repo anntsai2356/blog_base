@@ -36,7 +36,7 @@ enableEmoji = true
 [author]
   name = "Ann"
   email = ""
-  link = ""
+  link = "https://anntsai2356.github.io/"
 
 # Menu config
 [menu]
@@ -75,6 +75,14 @@ enableEmoji = true
     name = "關於"
     url = "/about/"
     title = "關於"
+  [[menu.main]]
+    weight = 5
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+    post = ""
+    name = ""
+    url = "https://github.com/anntsai2356"
+    title = "GitHub"
 
 [params]
   # site default theme ["auto", "light", "dark"]
