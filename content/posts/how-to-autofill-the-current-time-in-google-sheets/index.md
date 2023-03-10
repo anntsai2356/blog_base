@@ -2,7 +2,7 @@
 title: "Google Sheets｜一鍵自動紀錄當前時間"
 date: 2023-03-10T22:43:37+08:00
 lastmod: 2023-03-10T22:43:37+08:00
-draft: true
+draft: false
 tags: ["Google Sheets"]
 categories: ["工具"]
 ---
