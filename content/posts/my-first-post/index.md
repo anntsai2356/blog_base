@@ -4,7 +4,7 @@ date: 2023-02-20T15:49:56+08:00
 lastmod: 2023-02-22T23:30:00+08:00
 draft: false
 tags: ["blog"]
-categories: ["chat"]
+categories: ["閒聊"]
 ---
 
 ## 前言
