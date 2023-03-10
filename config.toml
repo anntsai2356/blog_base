@@ -4,7 +4,7 @@ baseURL = "http://anntsai2356.github.io/"
 theme = "LoveIt"
 
 # website title
-title = "Ann's Blog"
+title = "AT's Talk"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-tw"
@@ -34,7 +34,7 @@ enableEmoji = true
 
 # Author config
 [author]
-  name = "Ann"
+  name = "AT"
   email = ""
   link = "https://anntsai2356.github.io/"
 
@@ -95,9 +95,9 @@ enableEmoji = true
   #  date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "Ann's Blog"
+  title = "AT's Talk"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is Ann's site"
+  description = "This is AT's site"
   # website images for Open Graph and Twitter Cards
   images = [""]
 
@@ -112,7 +112,7 @@ enableEmoji = true
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Ann's Blog"
+      name = "AT's Talk"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -159,7 +159,7 @@ enableEmoji = true
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Ann's Blog"
+    title = "AT's Talk"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
