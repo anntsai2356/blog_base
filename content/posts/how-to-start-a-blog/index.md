@@ -1,7 +1,6 @@
 ---
 title: "如何開始做部落格"
 date: 2023-03-10T18:06:19+08:00
-lastmod: 2023-03-10T18:06:19+08:00
 draft: true
 tags: ["blog"]
 categories: ["部落格經營"]

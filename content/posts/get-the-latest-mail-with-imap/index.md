@@ -1,7 +1,6 @@
 ---
 title: "用 IMAP 取得最新信件"
 date: 2023-03-11T01:08:57+08:00
-# lastmod: 2023-03-11T01:08:57+08:00 測試直接用 git **產生**
 draft: false
 tags: ["IMAP", "PHP", "back-end"]
 categories: ["開發"]

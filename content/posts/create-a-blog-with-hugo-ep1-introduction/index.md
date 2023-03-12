@@ -1,7 +1,6 @@
 ---
 title: "用 Hugo 建立部落格｜EP1｜前言"
 date: 2023-03-10T22:18:19+08:00
-lastmod: 2023-03-10T22:18:19+08:00
 draft: true
 tags: ["blog", "hugo"]
 categories: ["用 Hugo 建立部落格"]

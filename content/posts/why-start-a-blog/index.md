@@ -1,7 +1,6 @@
 ---
 title: "為什麼開始做部落格"
 date: 2023-03-10T18:01:44+08:00
-lastmod: 2023-03-10T22:05:50+08:00
 draft: false
 tags: ["blog"]
 categories: ["部落格經營"]
