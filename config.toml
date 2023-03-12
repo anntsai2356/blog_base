@@ -25,7 +25,7 @@ copyright = ""
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-enableGitInfo = true # 有問題
+enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 
@@ -75,14 +75,6 @@ enableEmoji = true
     name = "關於"
     url = "/about/"
     title = "關於"
-  [[menu.main]]
-    weight = 5
-    identifier = "github"
-    pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-    post = ""
-    name = ""
-    url = "https://github.com/anntsai2356"
-    title = "GitHub"
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -299,7 +291,7 @@ enableEmoji = true
     RootMe= ""
     Phone = ""
     Email = ""
-    RSS = false # 
+    RSS = false 
 
   #  Page global config
   [params.page]
