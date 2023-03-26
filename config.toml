@@ -560,6 +560,10 @@ enableEmoji = true
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
 
+  # Google Tag Manager config
+  [params.gtm]
+    gtm_id = "GTM-P3GZ48Q"
+
 # Markup related config in Hugo
 [markup]
   # Syntax Highlighting
