@@ -564,6 +564,10 @@ enableEmoji = true
   [params.gtm]
     gtm_id = "GTM-P3GZ48Q"
 
+  # Google AdSense config
+  [params.adx]
+    enable = true    
+
 # Markup related config in Hugo
 [markup]
   # Syntax Highlighting
