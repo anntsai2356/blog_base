@@ -1,7 +1,7 @@
 ---
 title: "離職後焦慮的日子"
 date: 2023-03-25T17:42:54+08:00
-draft: false
+draft: true
 tags: ["life"]
 categories: ["閒聊"]
 ---
