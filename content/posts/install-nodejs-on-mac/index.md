@@ -1,7 +1,7 @@
 ---
 title: "2023 年如何在 Mac 上安裝 Node.js"
 date: 2023-05-22T18:38:37+08:00
-draft: true
+draft: false
 tags: ["node.js"]
 categories: ["程式語言"]
 ---
